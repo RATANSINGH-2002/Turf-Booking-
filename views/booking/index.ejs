@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Turf</title>
+  <!-- Code for font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Code for font awesome cdn -->
+
+  <!-- Code for font awesome css -->
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- Code for font awesome css -->
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <!-- header section -->
+  <header class="header">
+    <a href="#" class="logo"> <i class="fa-solid fa-futbol"></i>Turf</a>
+
+    <nav class="navbar">
+      <a href="#home">home</a>
+      <a href="#location">location</a>
+      <a href="#contact">contact</a>
+    </nav>
+
+    <div class="icons">
+      <div class="fa fa-bars" id="menu-btn"></div>
+      <div class="fa fa-search" id="search-btn"></div>
+      <!-- <div class="fa fa-shopping-cart" id="cart-btn"></div> -->
+      <div class="fa fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="/search_data" class="search-form" method="get">
+      <input type="search" id="search-box" name="name" placeholder="Search Here .... " class="box" />
+
+      <input type="text" name="location" placeholder="Location" class="box" />
+      <button type="submit" class="btn">Search</button>
+    </form>
+
+    <form action="#" class="login-form">
+      <h3>login now</h3>
+      <input type="email" placeholder="your email" class="box" />
+      <input type="password" placeholder="your password" class="box" />
+      <p>Forgot Your Password <a href="#"> Click Here </a></p>
+      <p>Don't Have An Account <a href="/signup"> Create Now </a></p>
+      <input type="submit" value="Login Now" class="btn" />
+    </form>
+  </header>
+
+  <!-- header section -->
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <!-- banner section -->
+  <section class="home" id="home">
+    <div class="content">
+      <source src="../../css/image/turfbanner.jpg" type="image/jpg" />
+    </div>
+  </section>
+  <!-- banner section -->
+
+  <!-- features section -->
+  <section class="features" id="features">
+    <h1 class="heading">our<span>features</span></h1>
+
+    <div class="box-container">
+      <div class="box">
+        <img
+          src="https://th.bing.com/th/id/R.387c71b111db047560497cea33799b2b?rik=hj%2flBIL0OtZXuw&riu=http%3a%2f%2flogotypes101.com%2flogos%2f540%2f9B26B942F54C30C94C91496B0DEF53F2%2fsearch.png&ehk=PcINYlg0AzmCbC19ExRy14ZFZ%2fqqY5AjvrquMi9No4U%3d&risl=&pid=ImgRaw&r=0"
+          alt="Please upgrade your internet connection" />
+        <h3>search</h3>
+        <li>
+          Are you tried after a long week and looking for the Sunday Cricket
+          match?
+        </li>
+
+        <li>
+          Explore the largest network of sports facilities whole over the web
+          serves.
+        </li>
+        <li>Type your required turf features and click on search.</li>
+        <a href="#" class="btn">read more</a>
+      </div>
+      <div class="box">
+        <img
+          src="https://thumbs.dreamstime.com/b/book-now-button-vector-illustration-web-golden-yellow-round-white-background-119711982.jpg"
+          alt="Be quick" />
+        <h3>book</h3>
+        <p>
+          Once you have found your prefect ground,connect with the venue
+          through the book now button to make online booking and secured
+          easier payment..
+        </p>
+        <a href="#" class="btn">read more</a>
+      </div>
+      <div class="box">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/61+uqs573AL._AC_SL1500_.jpg" alt="OOPS" />
+        <h3>play</h3>
+        <p>
+          You're the hero, you have just find a stunning turf or court . The
+          scene is set for your epic match and your trophy is waiting for you.
+        </p>
+
+        <a href="#" class="btn">read more</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- features section -->
+
+  <!-- popular turf section -->
+  <section class="popular-turf" id="popular-turf">
+    <h1 class="heading"> popular <span>turf</span></h1>
+
+
+    <div class="swiper turf-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide box">
+          <img src="../../css/image/2022-06-25.jpg">
+          <h1>Urban Sports Zone</h1>
+          <h2><i class="fa-solid fa-location-dot"></i> Juhu</h2>
+          <div class="price"> ₹1,800 </div>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <a href="/turf1" class="btn">book now</a>
+        </div>
+
+
+        <div class="swiper-slide box">
+          <img src="../../css/image/Gallant-Sports-3-2.jpg">
+          <h1>BoxPlay Sports Arena</h1>
+          <h2><i class="fa-solid fa-location-dot"></i> Ghatkopar</h2>
+          <div class="price"> ₹1,800 </div>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <a href="/turf2" class="btn">book now</a>
+        </div>
+
+        <div class="swiper-slide box">
+          <img src="../../css/image/Grs.jpg">
+          <h1>The Pitch Turf- Yeoor Hills</h1>
+          <h2><i class="fa-solid fa-location-dot"></i> Thane</h2>
+          <div class="price"> ₹700 </div>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <a href="/turf3" class="btn">book now</a>
+        </div>
+
+        <div class="swiper-slide box">
+          <img src="../../css/image/Cover-1024x482.jpg">
+          <h1>Hatrics Turf</h1>
+          <h2><i class="fa-solid fa-location-dot"></i> Thane</h2>
+          <div class="price"> ₹1,100 </div>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <a href="/turf4" class="btn">book now</a>
+        </div>
+
+        <!-- <div class="swiper-slide box">
+              <img src="image/">
+              <h1>turf5</h1>
+              <h1>location</h1>
+              <div class="price"> price </div>
+              <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+              </div>
+              <a href="#" class="btn">book now</a>
+          </div>
+
+
+          <div class="swiper-slide box">
+              <img src="image/">
+              <h1>turf6</h1>
+              <h1>location</h1>
+              <div class="price"> price </div>
+              <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+              </div>
+              <a href="#" class="btn">book now</a>
+          </div>
+
+          <div class="swiper-slide box">
+              <img src="image/">
+              <h1>turf7</h1>
+              <h1>location</h1>
+              <div class="price"> price </div>
+              <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+              </div>
+              <a href="#" class="btn">book now</a>
+          </div>
+
+          <div class="swiper-slide box">
+              <img src="image/">
+              <h1>turf8</h1>
+              <h1>location</h1>
+              <div class="price"> price </div>
+              <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+              </div>
+              <a href="#" class="btn">book now</a>
+          </div> -->
+
+      </div>
+    </div>
+
+
+
+  </section>
+
+
+  <!-- popular turf section -->
+
+
+  <!-- footer section -->
+  <section class="footer">
+    <div class="box-container">
+      <div class="box">
+        <h3><i class="fa fa-futbol"></i> Turf</h3>
+        <p>Feel free to follow us on our social media handles</p>
+
+        <div class="share">
+          <a href="#" class="fa-brands fa-facebook"></a>
+          <a href="#" class="fa-brands fa-twitter"></a>
+          <a href="#" class="fa-brands fa-instagram"></a>
+          <a href="#" class="fa-brands fa-linkedin"></a>
+        </div>
+      </div>
+
+      <div class="box" id="contact">
+        <h3>Contact Info</h3>
+        <a href="#" class="links">
+          <i class="fa fa-phone"></i>+91 9876543210</a>
+        <a href="#" class="links">
+          <i class="fa fa-phone"></i>+91 9871235432</a>
+        <a href="#" class="links">
+          <i class="fa-solid fa-envelope"></i> info@example.com</a>
+        <a href="#" class="links">
+          <i class="fa fa-map-marker"></i> Mumbai, India</a>
+      </div>
+
+      <div class="box">
+        <h3>Quick Links</h3>
+        <a href="#home" class="links"> <i class="fa fa-arrow-right"></i> Home</a>
+        <a href="#features" class="links">
+          <i class="fa fa-arrow-right"></i> Features</a>
+        <!-- <a href="#" class="links"> <i class="fa fa-arrow-right"></i> Home</a>
+                <a href="#" class="links"> <i class="fa fa-arrow-right"></i> Home</a> -->
+      </div>
+    </div>
+  </section>
+  <!-- footer section -->
+
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="css/script.js"></script>
+</body>
+
+</html>

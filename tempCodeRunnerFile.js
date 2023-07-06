@@ -1,0 +1,1 @@
+  const data = await Turf.find({ location: location });

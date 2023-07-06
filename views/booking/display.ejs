@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="../../css/display.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="box">
+        <h1>Results</h1>
+        <table class="table">
+            <thread>
+                <tr>
+                    <th scope="col">Location</th>
+                    <th scope="col">Turf Name</th>
+                    <th scope="col">Rating</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Url</th>
+                    <!-- <th scope="col">Website of the Turf</th> -->
+                </tr>
+            </thread>
+            <tbody>
+                <% for(let d of data){%>
+                    <tr>
+                        <td>
+                            <%=d.location%>
+                        </td>
+                        <td>
+                            <%=d.name%>
+                        </td>
+                        <td>
+                            <%=d.rating%>
+                        </td>
+                        <td>
+                            <%=d.price%>
+                        </td>
+                    </tr>
+                    <%}%>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- <% for(let d of data){%>
+        <h1>
+            <%=d.location%><b>- <%=d.name%></b>
+        </h1>
+        <%}%> -->
+
+</body>
+
+</html>

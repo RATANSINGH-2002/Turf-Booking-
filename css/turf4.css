@@ -1,0 +1,101 @@
+.home {
+    border: 0px solid;
+    display: flex;
+    justify-content: center;
+    background: url(image/Cover-1024x482.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 25rem;
+    padding-bottom: 10rem;
+}
+
+.home .content {
+    border: 0px solid;
+    text-align: center;
+    width: 60rem;
+}
+
+.home .content image {
+    width: 25rem;
+    left: 35rem;
+    z-index: 0;
+  }
+
+.home .content h4 {
+    color: var(--black);
+    font-size: 2.5rem;
+}
+
+.home .content h3 span {
+    color: var(--blue);
+    font-size: 3rem;
+}
+
+.home .content p {
+    color: var(--light-color);
+    font-size: 1.7rem;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
+/* popular turf */
+.popular-turf
+{
+    border: 0px;
+    padding: 1rem; 
+}
+
+.popular-turf
+{
+    margin-bottom: 2rem;
+}
+
+.popular-turf .box
+{
+    border: 0px solid red;
+    background: white;
+    border-radius: .5rem;
+    text-align: left;
+    padding: 3rem 2rem;
+    outline-offset: -1rem;
+    outline: var(--outline);
+    box-shadow: var(--box-shadow);
+    transition: .2s linear;
+}
+
+.popular-turf .box:hover
+{
+    box-shadow: 1px 1px 10px 4px var(--blue);
+}
+
+.popular-turf .box img
+{
+    height: 20rem;
+}
+
+.popular-turf .box h1
+{
+    font-size: 2.5rem;
+    color: var(--black);
+}
+
+.popular-turf .box .price
+{
+    font-size: 2rem;
+    color: var(--light-color);
+    padding: .5rem 0;
+}
+
+.popular-turf .box .price .stars i
+{
+    font-size: 1.7rem;
+    color: orange;
+    padding: .5rem 0;
+}
+
+.popular-turf .box .stars h2
+{
+    font-size: 2rem;
+    color: var(--light-color);
+}
+/* popular turf */
